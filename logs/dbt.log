@@ -1,0 +1,30 @@
+[0m13:29:32.286580 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1867DD160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1844D5D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1888F7D90>]}
+
+
+============================== 13:29:32.296168 | 51e06053-18f7-4cb5-927b-ad7b31d4104f ==============================
+[0m13:29:32.296168 [info ] [MainThread]: Running with dbt=1.10.13
+[0m13:29:32.297193 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\evans\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True'}
+[0m13:29:32.330828 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\evans\.dbt
+[0m13:29:38.948389 [debug] [MainThread]: Starter project path: C:\Users\evans\AppData\Roaming\Python\Python313\site-packages\dbt\include\starter_project
+[0m13:29:39.021948 [info ] [MainThread]: 
+Your new dbt project "custom_postgres" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:29:39.022727 [info ] [MainThread]: Setting up your profile.
+[0m13:32:31.822719 [info ] [MainThread]: Profile custom_postgres written to C:\Users\evans\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:32:31.826521 [debug] [MainThread]: Command `dbt init` succeeded at 13:32:31.826154 after 179.76 seconds
+[0m13:32:31.827479 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A18899B490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1889ED910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A1878828B0>]}
+[0m13:32:31.828849 [debug] [MainThread]: Flushing usage events
+[0m13:32:32.185054 [debug] [MainThread]: An error was encountered while trying to flush usage events
